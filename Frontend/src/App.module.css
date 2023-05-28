@@ -1,0 +1,23 @@
+.main{
+    width: 400px;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.316);
+    border-radius: 10px;
+    margin-top: 5rem;
+}
+.form{
+    background-color: rgba(0, 123, 255, 0.476);
+}
+.form2{
+    background-color: rgba(0, 255, 68, 0.476);
+}
+.logoutmain{
+    display: flex;
+    justify-content: center;
+}
+.logout{
+    font-size: 1.3rem;
+    width: 10rem;
+    margin: auto;
+    margin-top: 5rem;
+}
