@@ -1,6 +1,6 @@
 # Forget Password
 
-### :nazar_amulet: To achieve the desired result of the forget password
+### :nazar_amulet: To achieve the desired result of the forget password the steps I followed are
 
 1.During signup you will be asked to find answer a security question of your choice.
 ![Screenshot (42)](https://github.com/rajkumar-cmd/login-logout/assets/60788879/b85daf0f-13cf-4dcf-8bd1-1bd76393e07d)
