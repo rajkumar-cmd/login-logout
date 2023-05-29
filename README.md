@@ -1,5 +1,8 @@
 # Forget Password
 
+The tech stack used are:- React ,Nodejs, Express.js, MongoDB, MongoDBAtlas, Mongoose
+The website can be open in Laptop, tablet, android and IOS.
+
 ### :nazar_amulet: To achieve the desired result of the forget password the steps I followed are
 
 1.During signup you will be asked to find answer a security question of your choice.
