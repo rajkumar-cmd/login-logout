@@ -1,28 +1,78 @@
-.main{
-    width: 400px;
-    margin: auto;
-    border: 1px solid rgba(0, 0, 0, 0.316);
-    border-radius: 10px;
-    margin-top: 5rem;
+.mainBack {
+    height: 100vh;
+  background: rgb(110, 255, 219);
+  background: linear-gradient(
+    90deg,
+    rgba(110, 255, 219, 0.742734593837535) 27%,
+    rgba(255, 220, 161, 1) 93%,
+    rgba(255, 220, 161, 1) 100%
+  );
 }
-.form{
-    background-color: rgba(0, 123, 255, 0.476);
+.main {
+  width: 400px;
+  margin: auto;
+  border-radius: 10px;
+  padding-top: 5rem;
 }
-.form2{
-    background-color: rgba(0, 255, 68, 0.476);
+.form {
+  backdrop-filter: blur(6px) saturate(180%);
+  -webkit-backdrop-filter: blur(6px) saturate(180%);
+  background-color: rgba(140, 174, 242, 0.46);
+  border-radius: 0px 0px 10px 10px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
 }
-.logoutmain{
-    display: flex;
-    justify-content: center;
+.tabMain1 {
+  backdrop-filter: blur(6px) saturate(180%);
+  -webkit-backdrop-filter: blur(6px) saturate(180%);
+  background-color: rgba(140, 174, 242, 0.46);
+  border: 1px solid rgba(209, 213, 219, 0.3);
 }
-.logout{
-    font-size: 1.3rem;
-    width: 10rem;
-    margin: auto;
-    margin-top: 5rem;
+.form2 {
+  backdrop-filter: blur(6px) saturate(180%);
+  -webkit-backdrop-filter: blur(6px) saturate(180%);
+  background-color: rgba(146, 242, 140, 0.46);
+  border-radius: 0px 0px 10px 10px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.tabMain2 {
+  backdrop-filter: blur(6px) saturate(180%);
+  -webkit-backdrop-filter: blur(6px) saturate(180%);
+  background-color: rgba(146, 242, 140, 0.46);
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.logoutmain {
+  display: flex;
+  justify-content: center;
+}
+.logout {
+  font-size: 1.3rem;
+  width: 10rem;
+  margin: auto;
+  margin-top: 5rem;
+}
+.submit1{
+    margin-top: 1rem;
+    /* border-color: rgb(66, 66, 241); */
+    border-color: rgb(82, 82, 226);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.submit1:hover{
+    background-color: rgba(25, 44, 218, 0.356);
+    color: white;
+}
+.submit2{
+    border-color: green;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.submit2:hover{
+    background-color: rgba(9, 90, 13, 0.356);
+    color: white;
 }
 @media only screen and (max-width: 400px) {
-    .main{
-        width: 300px;
-    }
+  .main {
+    width: 300px;
+  }
 }

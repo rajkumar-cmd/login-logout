@@ -88,7 +88,7 @@ const Security = () => {
     }
     return (
         <>
-            <Button style={{ fontSize: "1.3rem",marginTop:"1rem" }} onClick={onOpen}>Forget Password</Button>
+            <Button style={{ fontSize: "1.3rem",marginTop:"1rem",backgroundColor:"rgb(82, 82, 226)",color:"white" }} onClick={onOpen}>Forget Password</Button>
 
             <Modal isOpen={isOpen} onClose={onClose}>
                 <ModalOverlay />
